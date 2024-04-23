@@ -6,54 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="698f1ab7-d7cc-4313-96b6-aafee02931e1" name="更改" comment="">
       <change beforePath="$PROJECT_DIR$/.github/workflows/build-docs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/build-docs.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/DTW-Doc.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Writerside/DTWDoc.tree" beforeDir="false" afterPath="$PROJECT_DIR$/DWT-Doc/v1.tree" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Writerside/c.list" beforeDir="false" afterPath="$PROJECT_DIR$/DWT-Doc/c.list" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Writerside/cfg/buildprofiles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/DWT-Doc/cfg/buildprofiles.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Writerside/dd.tree" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Writerside/images/completion_procedure.png" beforeDir="false" afterPath="$PROJECT_DIR$/DWT-Doc/images/completion_procedure.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Writerside/images/completion_procedure_dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/DWT-Doc/images/completion_procedure_dark.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Writerside/images/convert_table_to_xml.png" beforeDir="false" afterPath="$PROJECT_DIR$/DWT-Doc/images/convert_table_to_xml.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Writerside/images/convert_table_to_xml_dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/DWT-Doc/images/convert_table_to_xml_dark.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Writerside/images/new_topic_options.png" beforeDir="false" afterPath="$PROJECT_DIR$/DWT-Doc/images/new_topic_options.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Writerside/images/new_topic_options_dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/DWT-Doc/images/new_topic_options_dark.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Writerside/in.tree" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Writerside/redirection-rules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/DWT-Doc/redirection-rules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Writerside/topics/BL.md" beforeDir="false" afterPath="$PROJECT_DIR$/DWT-Doc/topics/BL.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Writerside/topics/Cargo.md" beforeDir="false" afterPath="$PROJECT_DIR$/DWT-Doc/topics/Cargo.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Writerside/topics/Create-BLs.md" beforeDir="false" afterPath="$PROJECT_DIR$/DWT-Doc/topics/Create-BLs.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Writerside/topics/Create-Destination.md" beforeDir="false" afterPath="$PROJECT_DIR$/DWT-Doc/topics/Create-Destination.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Writerside/topics/Create-Lot.md" beforeDir="false" afterPath="$PROJECT_DIR$/DWT-Doc/topics/Create-Lot.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Writerside/topics/Create-Plan.md" beforeDir="false" afterPath="$PROJECT_DIR$/DWT-Doc/topics/Create-Plan.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Writerside/topics/Create-operation.md" beforeDir="false" afterPath="$PROJECT_DIR$/DWT-Doc/topics/Create-operation.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Writerside/topics/Delete-Destinations.md" beforeDir="false" afterPath="$PROJECT_DIR$/DWT-Doc/topics/Delete-Destinations.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Writerside/topics/Delete-Plans.md" beforeDir="false" afterPath="$PROJECT_DIR$/DWT-Doc/topics/Delete-Plans.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Writerside/topics/Delete-operation.md" beforeDir="false" afterPath="$PROJECT_DIR$/DWT-Doc/topics/Delete-operation.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Writerside/topics/Destination.md" beforeDir="false" afterPath="$PROJECT_DIR$/DWT-Doc/topics/Destination.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Writerside/topics/Get-BLs.md" beforeDir="false" afterPath="$PROJECT_DIR$/DWT-Doc/topics/Get-BLs.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Writerside/topics/Get-Destinations.md" beforeDir="false" afterPath="$PROJECT_DIR$/DWT-Doc/topics/Get-Destinations.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Writerside/topics/Get-Lot.md" beforeDir="false" afterPath="$PROJECT_DIR$/DWT-Doc/topics/Get-Lot.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Writerside/topics/Get-Plans.md" beforeDir="false" afterPath="$PROJECT_DIR$/DWT-Doc/topics/Get-Plans.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Writerside/topics/Get-one-Plan.md" beforeDir="false" afterPath="$PROJECT_DIR$/DWT-Doc/topics/Get-one-Plan.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Writerside/topics/Get-one-operation.md" beforeDir="false" afterPath="$PROJECT_DIR$/DWT-Doc/topics/Get-one-operation.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Writerside/topics/Get-operations.md" beforeDir="false" afterPath="$PROJECT_DIR$/DWT-Doc/topics/Get-operations.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Writerside/topics/History.md" beforeDir="false" afterPath="$PROJECT_DIR$/DWT-Doc/topics/History.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Writerside/topics/Lot.md" beforeDir="false" afterPath="$PROJECT_DIR$/DWT-Doc/topics/Lot.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Writerside/topics/Operation.md" beforeDir="false" afterPath="$PROJECT_DIR$/DWT-Doc/topics/Operation.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Writerside/topics/Overview.md" beforeDir="false" afterPath="$PROJECT_DIR$/DWT-Doc/topics/Overview.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Writerside/topics/Plan.md" beforeDir="false" afterPath="$PROJECT_DIR$/DWT-Doc/topics/Plan.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Writerside/topics/Update-Cargo.md" beforeDir="false" afterPath="$PROJECT_DIR$/DWT-Doc/topics/Update-Cargo.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Writerside/topics/Update-Destination.md" beforeDir="false" afterPath="$PROJECT_DIR$/DWT-Doc/topics/Update-Destination.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Writerside/topics/Update-Plan.md" beforeDir="false" afterPath="$PROJECT_DIR$/DWT-Doc/topics/Update-Plan.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Writerside/topics/Update-operation.md" beforeDir="false" afterPath="$PROJECT_DIR$/DWT-Doc/topics/Update-operation.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Writerside/v.list" beforeDir="false" afterPath="$PROJECT_DIR$/DWT-Doc/v.list" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Writerside/writerside.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/DWT-Doc/writerside.cfg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webHelpDTWDOC2-all.zip" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
