@@ -60,7 +60,7 @@ jobs:
           name: docs
 
       - name: Unzip artifact
-        run: unzip -O UTF-8 -qq 'webHelpV12-all' -d dir
+        run: unzip -O UTF-8 -qq 'webHelpV12-all.zip' -d dir
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
