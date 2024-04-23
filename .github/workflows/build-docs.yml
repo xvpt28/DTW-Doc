@@ -21,7 +21,7 @@ jobs:
         uses: JetBrains/writerside-github-action@v4
         with:
           instance: DWT-Doc/v1
-          artifact: webHelpV12-all.zip
+          artifact: webHelpV12-all
           docker-version: 233.14938
 
       - name: Save artifact with build results
@@ -60,7 +60,7 @@ jobs:
           name: docs
 
       - name: Unzip artifact
-        run: unzip -O UTF-8 -qq 'webHelpV12-all.zip' -d dir
+        run: unzip -O UTF-8 -qq 'webHelpV12-all' -d dir
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
