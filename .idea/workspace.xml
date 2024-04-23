@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="698f1ab7-d7cc-4313-96b6-aafee02931e1" name="更改" comment="">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/build.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/build-docs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/build-docs.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -320,6 +320,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "Writerside.PDF (hi).executor": "Run",
+    "Writerside.PDF (v1).executor": "Run",
     "Writerside.Web Archive (DTWDoc).executor": "Run",
     "Writerside.Web Archive (hi).executor": "Run",
     "Writerside.Web Archive (v1).executor": "Run",
@@ -341,7 +342,7 @@
       <recent name="$PROJECT_DIR$/Writerside" />
     </key>
   </component>
-  <component name="RunManager" selected="Writerside.Web Archive (v1)">
+  <component name="RunManager" selected="Writerside.PDF (v1)">
     <configuration name="PDF (hi)" type="StardustRunConfiguration" factoryName="build-pdf">
       <option name="copyright" />
       <option name="description" />
@@ -350,6 +351,19 @@
       <option name="header" />
       <option name="instanceId" value="hi" />
       <option name="instanceName" value="Help Instance" />
+      <option name="layout" />
+      <option name="logoPath" />
+      <option name="title" />
+      <method v="2" />
+    </configuration>
+    <configuration name="PDF (v1)" type="StardustRunConfiguration" factoryName="build-pdf">
+      <option name="copyright" />
+      <option name="description" />
+      <option name="folderPath" value="$PROJECT_DIR$" />
+      <option name="footer" />
+      <option name="header" />
+      <option name="instanceId" value="v1" />
+      <option name="instanceName" value="DTW-v1" />
       <option name="layout" />
       <option name="logoPath" />
       <option name="title" />
