@@ -6,8 +6,8 @@ on:
   workflow_dispatch:
 
 env:
-  INSTANCE: 'Writerside/DTWDoc'
-  ARTIFACT: 'webHelpDTWDOC2-all.zip'
+  INSTANCE: 'DWT-Doc/v1'
+  ARTIFACT: 'webHelpV12-all.zip'
   DOCKER_VERSION: '233.14938'
 
 jobs:
@@ -17,10 +17,10 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Build docs using Writerside Docker builder
+      - name: Build docs using DWT-Doc Docker builder
         uses: JetBrains/writerside-github-action@v4
         with:
-          instance: DTWDoc
+          instance: DWT-Doc/v1
           artifact: webHelpDTWDOC2-all.zip
           docker-version: 233.14938
 

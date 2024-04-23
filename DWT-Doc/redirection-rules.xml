@@ -38,8 +38,12 @@
         <description><![CDATA[Created after removal of "<Get-Plans.md>" from Help Instance]]></description>
         <accepts>Get-Plans.html</accepts>
     </rule>
-    <rule id="4e4ab7cb">
+    <rule id="3519aa64">
         <description>Created after removal of "11" from DTW Documentation</description>
         <accepts>11.html</accepts>
+    </rule>
+    <rule id="3400d8a6">
+        <description>Created after removal of "Empty MD Topic" from DTW-v1</description>
+        <accepts>Empty-MD-Topic.html</accepts>
     </rule>
 </rules>

@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="698f1ab7-d7cc-4313-96b6-aafee02931e1" name="更改" comment="">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/build-docs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/build-docs.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/DTW-Doc.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Writerside/DTWDoc.tree" beforeDir="false" afterPath="$PROJECT_DIR$/DWT-Doc/v1.tree" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Writerside/c.list" beforeDir="false" afterPath="$PROJECT_DIR$/DWT-Doc/c.list" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Writerside/cfg/buildprofiles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/DWT-Doc/cfg/buildprofiles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Writerside/dd.tree" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Writerside/images/completion_procedure.png" beforeDir="false" afterPath="$PROJECT_DIR$/DWT-Doc/images/completion_procedure.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Writerside/images/completion_procedure_dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/DWT-Doc/images/completion_procedure_dark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Writerside/images/convert_table_to_xml.png" beforeDir="false" afterPath="$PROJECT_DIR$/DWT-Doc/images/convert_table_to_xml.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Writerside/images/convert_table_to_xml_dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/DWT-Doc/images/convert_table_to_xml_dark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Writerside/images/new_topic_options.png" beforeDir="false" afterPath="$PROJECT_DIR$/DWT-Doc/images/new_topic_options.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Writerside/images/new_topic_options_dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/DWT-Doc/images/new_topic_options_dark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Writerside/in.tree" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Writerside/redirection-rules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/DWT-Doc/redirection-rules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Writerside/topics/BL.md" beforeDir="false" afterPath="$PROJECT_DIR$/DWT-Doc/topics/BL.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Writerside/topics/Cargo.md" beforeDir="false" afterPath="$PROJECT_DIR$/DWT-Doc/topics/Cargo.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Writerside/topics/Create-BLs.md" beforeDir="false" afterPath="$PROJECT_DIR$/DWT-Doc/topics/Create-BLs.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Writerside/topics/Create-Destination.md" beforeDir="false" afterPath="$PROJECT_DIR$/DWT-Doc/topics/Create-Destination.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Writerside/topics/Create-Lot.md" beforeDir="false" afterPath="$PROJECT_DIR$/DWT-Doc/topics/Create-Lot.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Writerside/topics/Create-Plan.md" beforeDir="false" afterPath="$PROJECT_DIR$/DWT-Doc/topics/Create-Plan.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Writerside/topics/Create-operation.md" beforeDir="false" afterPath="$PROJECT_DIR$/DWT-Doc/topics/Create-operation.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Writerside/topics/Delete-Destinations.md" beforeDir="false" afterPath="$PROJECT_DIR$/DWT-Doc/topics/Delete-Destinations.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Writerside/topics/Delete-Plans.md" beforeDir="false" afterPath="$PROJECT_DIR$/DWT-Doc/topics/Delete-Plans.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Writerside/topics/Delete-operation.md" beforeDir="false" afterPath="$PROJECT_DIR$/DWT-Doc/topics/Delete-operation.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Writerside/topics/Destination.md" beforeDir="false" afterPath="$PROJECT_DIR$/DWT-Doc/topics/Destination.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Writerside/topics/Get-BLs.md" beforeDir="false" afterPath="$PROJECT_DIR$/DWT-Doc/topics/Get-BLs.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Writerside/topics/Get-Destinations.md" beforeDir="false" afterPath="$PROJECT_DIR$/DWT-Doc/topics/Get-Destinations.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Writerside/topics/Get-Lot.md" beforeDir="false" afterPath="$PROJECT_DIR$/DWT-Doc/topics/Get-Lot.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Writerside/topics/Get-Plans.md" beforeDir="false" afterPath="$PROJECT_DIR$/DWT-Doc/topics/Get-Plans.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Writerside/topics/Get-one-Plan.md" beforeDir="false" afterPath="$PROJECT_DIR$/DWT-Doc/topics/Get-one-Plan.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Writerside/topics/Get-one-operation.md" beforeDir="false" afterPath="$PROJECT_DIR$/DWT-Doc/topics/Get-one-operation.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Writerside/topics/Get-operations.md" beforeDir="false" afterPath="$PROJECT_DIR$/DWT-Doc/topics/Get-operations.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Writerside/topics/History.md" beforeDir="false" afterPath="$PROJECT_DIR$/DWT-Doc/topics/History.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Writerside/topics/Lot.md" beforeDir="false" afterPath="$PROJECT_DIR$/DWT-Doc/topics/Lot.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Writerside/topics/Operation.md" beforeDir="false" afterPath="$PROJECT_DIR$/DWT-Doc/topics/Operation.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Writerside/topics/Overview.md" beforeDir="false" afterPath="$PROJECT_DIR$/DWT-Doc/topics/Overview.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Writerside/topics/Plan.md" beforeDir="false" afterPath="$PROJECT_DIR$/DWT-Doc/topics/Plan.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Writerside/topics/Update-Cargo.md" beforeDir="false" afterPath="$PROJECT_DIR$/DWT-Doc/topics/Update-Cargo.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Writerside/topics/Update-Destination.md" beforeDir="false" afterPath="$PROJECT_DIR$/DWT-Doc/topics/Update-Destination.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Writerside/topics/Update-Plan.md" beforeDir="false" afterPath="$PROJECT_DIR$/DWT-Doc/topics/Update-Plan.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Writerside/topics/Update-operation.md" beforeDir="false" afterPath="$PROJECT_DIR$/DWT-Doc/topics/Update-operation.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Writerside/v.list" beforeDir="false" afterPath="$PROJECT_DIR$/DWT-Doc/v.list" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Writerside/writerside.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/DWT-Doc/writerside.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webHelpDTWDOC2-all.zip" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="printScope" value="4" />
+    <option name="OPEN_IN_BROWSER" value="true" />
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/exportToHTML" />
+  </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLabMergeRequestsSettings">{}</component>
+  <component name="GithubPullRequestsUISettings">{}</component>
+  <component name="InstanceColorv3">
+    <option name="map">
+      <map>
+        <entry key="$PROJECT_DIR$/DWT-Doc/v1.tree">
+          <value>
+            <ColorState>
+              <option name="customOrder" value="1" />
+              <option name="first">
+                <RgbState>
+                  <option name="blue" value="60" />
+                  <option name="darkBlue" value="60" />
+                  <option name="darkGreen" value="68" />
+                  <option name="darkRed" value="206" />
+                  <option name="green" value="68" />
+                  <option name="red" value="206" />
+                </RgbState>
+              </option>
+              <option name="second">
+                <RgbState>
+                  <option name="blue" value="65" />
+                  <option name="darkBlue" value="65" />
+                  <option name="darkGreen" value="126" />
+                  <option name="darkRed" value="231" />
+                  <option name="green" value="126" />
+                  <option name="red" value="231" />
+                </RgbState>
+              </option>
+            </ColorState>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Writerside/DTWDoc.tree">
+          <value>
+            <ColorState>
+              <option name="customOrder" value="1" />
+              <option name="first">
+                <RgbState>
+                  <option name="blue" value="60" />
+                  <option name="darkBlue" value="60" />
+                  <option name="darkGreen" value="68" />
+                  <option name="darkRed" value="206" />
+                  <option name="green" value="68" />
+                  <option name="red" value="206" />
+                </RgbState>
+              </option>
+              <option name="second">
+                <RgbState>
+                  <option name="blue" value="65" />
+                  <option name="darkBlue" value="65" />
+                  <option name="darkGreen" value="126" />
+                  <option name="darkRed" value="231" />
+                  <option name="green" value="126" />
+                  <option name="red" value="231" />
+                </RgbState>
+              </option>
+            </ColorState>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Writerside/dd.tree">
+          <value>
+            <ColorState>
+              <option name="customOrder" value="3" />
+              <option name="first">
+                <RgbState>
+                  <option name="blue" value="147" />
+                  <option name="darkBlue" value="147" />
+                  <option name="darkGreen" value="69" />
+                  <option name="darkRed" value="143" />
+                  <option name="green" value="69" />
+                  <option name="red" value="143" />
+                </RgbState>
+              </option>
+              <option name="second">
+                <RgbState>
+                  <option name="blue" value="227" />
+                  <option name="darkBlue" value="227" />
+                  <option name="darkGreen" value="114" />
+                  <option name="darkRed" value="181" />
+                  <option name="green" value="114" />
+                  <option name="red" value="181" />
+                </RgbState>
+              </option>
+            </ColorState>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Writerside/hi.tree">
+          <value>
+            <ColorState>
+              <option name="customOrder" value="1" />
+              <option name="first">
+                <RgbState>
+                  <option name="blue" value="60" />
+                  <option name="darkBlue" value="60" />
+                  <option name="darkGreen" value="68" />
+                  <option name="darkRed" value="206" />
+                  <option name="green" value="68" />
+                  <option name="red" value="206" />
+                </RgbState>
+              </option>
+              <option name="second">
+                <RgbState>
+                  <option name="blue" value="65" />
+                  <option name="darkBlue" value="65" />
+                  <option name="darkGreen" value="126" />
+                  <option name="darkRed" value="231" />
+                  <option name="green" value="126" />
+                  <option name="red" value="231" />
+                </RgbState>
+              </option>
+            </ColorState>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Writerside/in.tree">
+          <value>
+            <ColorState>
+              <option name="customOrder" value="4" />
+              <option name="first">
+                <RgbState>
+                  <option name="blue" value="112" />
+                  <option name="darkBlue" value="112" />
+                  <option name="darkGreen" value="83" />
+                  <option name="darkRed" value="215" />
+                  <option name="green" value="83" />
+                  <option name="red" value="215" />
+                </RgbState>
+              </option>
+              <option name="second">
+                <RgbState>
+                  <option name="blue" value="163" />
+                  <option name="darkBlue" value="163" />
+                  <option name="darkGreen" value="111" />
+                  <option name="darkRed" value="233" />
+                  <option name="green" value="111" />
+                  <option name="red" value="233" />
+                </RgbState>
+              </option>
+            </ColorState>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Writerside/v1.tree">
+          <value>
+            <ColorState>
+              <option name="customOrder" value="8" />
+              <option name="first">
+                <RgbState>
+                  <option name="blue" value="185" />
+                  <option name="darkBlue" value="185" />
+                  <option name="darkGreen" value="64" />
+                  <option name="darkRed" value="200" />
+                  <option name="green" value="64" />
+                  <option name="red" value="200" />
+                </RgbState>
+              </option>
+              <option name="second">
+                <RgbState>
+                  <option name="blue" value="174" />
+                  <option name="darkBlue" value="174" />
+                  <option name="darkGreen" value="116" />
+                  <option name="darkRed" value="224" />
+                  <option name="green" value="116" />
+                  <option name="red" value="224" />
+                </RgbState>
+              </option>
+            </ColorState>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../DTW-api/Writerside/hi.tree">
+          <value>
+            <ColorState>
+              <option name="customOrder" value="2" />
+              <option name="first">
+                <RgbState>
+                  <option name="blue" value="225" />
+                  <option name="darkBlue" value="225" />
+                  <option name="darkGreen" value="149" />
+                  <option name="darkRed" value="56" />
+                  <option name="green" value="149" />
+                  <option name="red" value="56" />
+                </RgbState>
+              </option>
+              <option name="second">
+                <RgbState>
+                  <option name="blue" value="234" />
+                  <option name="darkBlue" value="234" />
+                  <option name="darkGreen" value="197" />
+                  <option name="darkRed" value="81" />
+                  <option name="green" value="197" />
+                  <option name="red" value="81" />
+                </RgbState>
+              </option>
+            </ColorState>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../DWT-api/Writerside/hi.tree">
+          <value>
+            <ColorState>
+              <option name="customOrder" value="5" />
+              <option name="first">
+                <RgbState>
+                  <option name="blue" value="55" />
+                  <option name="darkBlue" value="55" />
+                  <option name="darkGreen" value="114" />
+                  <option name="darkRed" value="226" />
+                  <option name="green" value="114" />
+                  <option name="red" value="226" />
+                </RgbState>
+              </option>
+              <option name="second">
+                <RgbState>
+                  <option name="blue" value="62" />
+                  <option name="darkBlue" value="62" />
+                  <option name="darkGreen" value="168" />
+                  <option name="darkRed" value="232" />
+                  <option name="green" value="168" />
+                  <option name="red" value="232" />
+                </RgbState>
+              </option>
+            </ColorState>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../DWT-api/Writerside/v.tree">
+          <value>
+            <ColorState>
+              <option name="customOrder" value="6" />
+              <option name="first">
+                <RgbState>
+                  <option name="blue" value="173" />
+                  <option name="darkBlue" value="173" />
+                  <option name="darkGreen" value="84" />
+                  <option name="darkRed" value="120" />
+                  <option name="green" value="84" />
+                  <option name="red" value="120" />
+                </RgbState>
+              </option>
+              <option name="second">
+                <RgbState>
+                  <option name="blue" value="230" />
+                  <option name="darkBlue" value="230" />
+                  <option name="darkGreen" value="122" />
+                  <option name="darkRed" value="137" />
+                  <option name="green" value="122" />
+                  <option name="red" value="137" />
+                </RgbState>
+              </option>
+            </ColorState>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../DWT-api/Writerside/v1.tree">
+          <value>
+            <ColorState>
+              <option name="customOrder" value="7" />
+              <option name="first">
+                <RgbState>
+                  <option name="blue" value="173" />
+                  <option name="darkBlue" value="173" />
+                  <option name="darkGreen" value="188" />
+                  <option name="darkRed" value="45" />
+                  <option name="green" value="188" />
+                  <option name="red" value="45" />
+                </RgbState>
+              </option>
+              <option name="second">
+                <RgbState>
+                  <option name="blue" value="164" />
+                  <option name="darkBlue" value="164" />
+                  <option name="darkGreen" value="214" />
+                  <option name="darkRed" value="53" />
+                  <option name="green" value="214" />
+                  <option name="red" value="53" />
+                </RgbState>
+              </option>
+            </ColorState>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="OptimizeOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2fRjZhA2IkZp9n6ARXFmZUWh1pp" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Writerside.PDF (hi).executor": "Run",
+    "Writerside.Web Archive (DTWDoc).executor": "Run",
+    "Writerside.Web Archive (hi).executor": "Run",
+    "Writerside.Web Archive (v1).executor": "Run",
+    "code.cleanup.on.save": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/putong/Desktop/DTW-Doc/Writerside/topics",
+    "nodejs_package_manager_path": "npm",
+    "rearrange.code.on.save": "true",
+    "settings.editor.selected.configurable": "actions.on.save",
+    "vue.rearranger.settings.migration": "true",
+    "writerside.last.selected.productHelpTOC.json": "DTWDoc"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Writerside/topics" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Writerside" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Writerside.Web Archive (v1)">
+    <configuration name="PDF (hi)" type="StardustRunConfiguration" factoryName="build-pdf">
+      <option name="copyright" />
+      <option name="description" />
+      <option name="folderPath" value="$PROJECT_DIR$" />
+      <option name="footer" />
+      <option name="header" />
+      <option name="instanceId" value="hi" />
+      <option name="instanceName" value="Help Instance" />
+      <option name="layout" />
+      <option name="logoPath" />
+      <option name="title" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Web Archive (DTWDoc)" type="StardustRunConfiguration" factoryName="save-as-zip">
+      <option name="folderPath" value="$PROJECT_DIR$" />
+      <option name="instanceId" value="DTWDoc" />
+      <option name="instanceName" value="DTW Documentation" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Web Archive (hi)" type="StardustRunConfiguration" factoryName="save-as-zip">
+      <option name="folderPath" value="$PROJECT_DIR$" />
+      <option name="instanceId" value="hi" />
+      <option name="instanceName" value="Help Instance" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Web Archive (v1)" type="StardustRunConfiguration" factoryName="save-as-zip">
+      <option name="folderPath" value="$PROJECT_DIR$" />
+      <option name="instanceId" value="v1" />
+      <option name="instanceName" value="DTW-v1" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-WS-241.14494.180" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="698f1ab7-d7cc-4313-96b6-aafee02931e1" name="更改" comment="" />
+      <created>1713782459438</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1713782459438</updated>
+      <workItem from="1713782461113" duration="1000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
