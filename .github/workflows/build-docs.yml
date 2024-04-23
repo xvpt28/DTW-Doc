@@ -29,7 +29,7 @@ jobs:
         with:
           name: docs
           path: |
-            artifacts/webHelpDTWDOC2-all.zip
+            artifacts/webHelpV12-all.zip
             artifacts/report.json
           retention-days: 7
   test:
