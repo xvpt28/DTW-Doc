@@ -69,7 +69,7 @@ example:
 | planId            | string | The plan id of the plan            |
 | method            | string | The method of the plan             |
 | targetFrom        | obj    | The target destination of the plan |
-| targetDestination | uuid   | The target destination of the plan |
+| targetDestination | obj    | The target destination of the plan |
 | targetDate        | string | The target timestamp of the plan   |
 | blInfo            | obj    | The bl information of the plan     |
 | lotInfo           | obj    | The lot information of the plan    |

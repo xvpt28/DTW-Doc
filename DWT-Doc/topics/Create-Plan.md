@@ -26,7 +26,7 @@
 |-------------------|--------|------------------------------------|----------|
 | method            | string | The method of the plan             | yes      |
 | targetFrom        | obj    | The target destination of the plan | no       |
-| targetDestination | uuid   | The target destination of the plan | yes      |
+| targetDestination | uuid   | The target destination of the plan | no       |
 | targetDate        | string | The target timestamp of the plan   | yes      |
 
 Example:
