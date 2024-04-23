@@ -61,7 +61,7 @@ Example:
 | targetDate        | string | The target timestamp of the plan   |
 | blInfo            | obj    | The bl information of the plan     |
 | lotInfo           | obj    | The lot information of the plan    |
-| cargoInfo         | obj    | The cargo information of the plan  |
+| cargoInfo         | array  | The cargo information of the plan  |
 
 Example:
 
@@ -96,12 +96,14 @@ Example:
         "quantityUnit": "bags",
         "numberOfCargo": 50
       },
-      "cargoInfo": {
-        "id": "cb521f04-0489-4fa0-befd-99ceb2c29801",
-        "type": "pallet",
-        "virtualId": "CAR-001",
-        "actualId": "CAR-32315"
-      }
+      "cargoInfo": [
+        {
+          "id": "cb521f04-0489-4fa0-befd-99ceb2c29801",
+          "type": "pallet",
+          "virtualId": "CAR-001",
+          "actualId": "CAR-32315"
+        }
+      ]
     }
   ]
 }
