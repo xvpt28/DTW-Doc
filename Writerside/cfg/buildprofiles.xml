@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<buildprofiles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/build-profiles.xsd">
+
+    <variables></variables>
+    <build-profile instance="DTWDoc">
+        <variables></variables>
+    </build-profile>
+    <build-profile instance="dd">
+        <variables>
+            <noindex-content>true</noindex-content>
+            <offline-docs>false</offline-docs>
+        </variables>
+    </build-profile>
+    <build-profile instance="in">
+        <variables>
+            <noindex-content>true</noindex-content>
+            <offline-docs>false</offline-docs>
+        </variables>
+    </build-profile>
+
+</buildprofiles>

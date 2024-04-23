@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE instance-profile
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
+
+<instance-profile id="DTWDoc"
+                  name="DTW_Documentation"
+                  start-page="Destination.md">
+
+    <toc-element topic="Destination.md">
+        <toc-element topic="Delete-Destinations.md"/>
+        <toc-element topic="Get-Destinations.md"/>
+        <toc-element topic="Create-Destination.md"/>
+        <toc-element topic="Update-Destination.md"/>
+    </toc-element>
+    <toc-element topic="Cargo.md">
+        <toc-element topic="Update-Cargo.md"/>
+    </toc-element>
+    <toc-element topic="BL.md">
+        <toc-element topic="Create-BLs.md"/>
+        <toc-element topic="Get-BLs.md"/>
+    </toc-element>
+    <toc-element topic="Operation.md">
+        <toc-element topic="Get-one-operation.md"/>
+        <toc-element topic="Delete-operation.md"/>
+        <toc-element topic="Update-operation.md"/>
+        <toc-element topic="Create-operation.md"/>
+        <toc-element topic="Get-operations.md"/>
+    </toc-element>
+    <toc-element topic="Lot.md">
+        <toc-element topic="Create-Lot.md"/>
+        <toc-element topic="Get-Lot.md"/>
+    </toc-element>
+    <toc-element topic="Plan.md">
+        <toc-element topic="Get-one-Plan.md"/>
+        <toc-element topic="Delete-Plans.md"/>
+        <toc-element topic="Update-Plan.md"/>
+        <toc-element topic="Create-Plan.md"/>
+        <toc-element topic="Get-Plans.md"/>
+    </toc-element>
+</instance-profile>

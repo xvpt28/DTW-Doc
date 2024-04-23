@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rules SYSTEM "https://resources.jetbrains.com/writerside/1.0/redirection-rules.dtd">
+<rules>
+    <!-- format is as follows
+    <rule id="<unique id>">
+        <accepts>page.html</accepts>
+    </rule>
+    -->
+    <rule id="538496f7">
+        <description>Created after removal of "This is the first topic" from Help Instance</description>
+        <accepts>Default-topic.html</accepts>
+    </rule>
+    <rule id="4648d45">
+        <description>Created after removal of "Get Destinations" from Help Instance</description>
+        <accepts>Create-Destinations.html</accepts>
+    </rule>
+    <rule id="19aed4f8">
+        <description>Created after removal of "Common" from Help Instance</description>
+        <accepts>Common.html</accepts>
+    </rule>
+    <rule id="49d4f9fc">
+        <description>Created after removal of "Plan" from Help Instance</description>
+        <accepts>Plan.html</accepts>
+    </rule>
+    <rule id="88b75f1">
+        <description>Created after removal of "History" from Help Instance</description>
+        <accepts>History.html</accepts>
+    </rule>
+    <rule id="5ad524e4">
+        <description>Created after removal of "Overview" from Help Instance</description>
+        <accepts>Overview.html</accepts>
+    </rule>
+    <rule id="3b6bad8b">
+        <description>Created after removal of "Operation Api" from Help Instance</description>
+        <accepts>Operation.html</accepts>
+    </rule>
+    <rule id="5c88e5aa">
+        <description><![CDATA[Created after removal of "<Get-Plans.md>" from Help Instance]]></description>
+        <accepts>Get-Plans.html</accepts>
+    </rule>
+    <rule id="4e4ab7cb">
+        <description>Created after removal of "11" from DTW Documentation</description>
+        <accepts>11.html</accepts>
+    </rule>
+</rules>
