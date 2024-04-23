@@ -44,7 +44,7 @@ jobs:
       - name: Test documentation
         uses: JetBrains/writerside-checker-action@v1
         with:
-          instance: DTWDoc
+          instance: DWT-Doc/v1
 
   deploy:
     environment:
@@ -59,7 +59,7 @@ jobs:
           name: docs
 
       - name: Unzip artifact
-        run: unzip -O UTF-8 -qq 'webHelpDTWDOC2-all.zip' -d dir
+        run: unzip -O UTF-8 -qq 'webHelpHI2-all.zip' -d dir
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
