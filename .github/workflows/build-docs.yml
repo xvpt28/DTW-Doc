@@ -50,7 +50,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: dtw-documentation@v1
+      url: ${{ steps.deployment.outputs.page_url }}
     needs: [ build, test ]
     runs-on: ubuntu-latest
     steps:
@@ -60,7 +60,7 @@ jobs:
           name: docs
 
       - name: Unzip artifact
-        run: unzip -O UTF-8 -qq 'webHelpV12-all' -d dir
+        run: unzip -O UTF-8 -qq '${{ env.ARTIFACT }}' -d dir
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
