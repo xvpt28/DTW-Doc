@@ -21,7 +21,7 @@ jobs:
         uses: JetBrains/writerside-github-action@v4
         with:
           instance: DWT-Doc/v1
-          artifact: webHelpV12-all
+          artifact: webHelpV12-all.zip
           docker-version: 233.14938
 
       - name: Save artifact with build results
@@ -50,7 +50,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: DTW-Doc/v1
+      url: ${{steps.deployment.outputs.page_url}}
     needs: [ build, test ]
     runs-on: ubuntu-latest
     steps:
