@@ -21,7 +21,7 @@ jobs:
         uses: JetBrains/writerside-github-action@v4
         with:
           instance: DTWDoc
-          artifact: webHelpDTWDOC2-all.zip,
+          artifact: webHelpDTWDOC2-all.zip
           docker-version: 233.14938
 
       - name: Save artifact with build results
