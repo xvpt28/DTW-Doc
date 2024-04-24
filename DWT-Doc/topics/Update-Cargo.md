@@ -72,6 +72,7 @@ Example:
     "type": "pallet",
     "virtualId": "CAR-001",
     "actualId": "CAR-32315",
+    "status": "pending",
     "operationInfo": {
       "id": "cb521f04-0489-4fa0-befd-99ceb2c29801",
       "timestamp": "1713781182",
@@ -89,7 +90,8 @@ Example:
         "id": "cb521f04-0489-4fa0-befd-99ceb2c29801",
         "name": "Zone 10"
       },
-      "targetDate": "1713781182"
+      "targetDate": "1713781182",
+      "status": "pending"
     },
     "blInfo": {
       "id": "cb521f04-0489-4fa0-befd-99ceb2c29801",

@@ -18,5 +18,5 @@ Store information about the Cargo.
 | type      | string | The type of the cargo (pallet or carton)    | No          | No          |
 | virtualId | string | The virtual id of the cargo                 | No          | No          |
 | actualId  | string | The actual id of the cargo                  | No          | Yes         |
-| status    | string | The status of the cargo (planned/completed) | NO          | No          | 
+| status    | string | The status of the cargo (pending/completed) | NO          | No          | 
 

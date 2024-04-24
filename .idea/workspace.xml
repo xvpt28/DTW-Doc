@@ -7,7 +7,20 @@
     <list default="true" id="698f1ab7-d7cc-4313-96b6-aafee02931e1" name="更改" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DWT-Doc/topics/Cargo.md" beforeDir="false" afterPath="$PROJECT_DIR$/DWT-Doc/topics/Cargo.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DWT-Doc/topics/Destination.md" beforeDir="false" afterPath="$PROJECT_DIR$/DWT-Doc/topics/Destination.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DWT-Doc/topics/Create-BLs.md" beforeDir="false" afterPath="$PROJECT_DIR$/DWT-Doc/topics/Create-BLs.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DWT-Doc/topics/Create-Lot.md" beforeDir="false" afterPath="$PROJECT_DIR$/DWT-Doc/topics/Create-Lot.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DWT-Doc/topics/Create-Plan.md" beforeDir="false" afterPath="$PROJECT_DIR$/DWT-Doc/topics/Create-Plan.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DWT-Doc/topics/Create-operation.md" beforeDir="false" afterPath="$PROJECT_DIR$/DWT-Doc/topics/Create-operation.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DWT-Doc/topics/Get-BLs.md" beforeDir="false" afterPath="$PROJECT_DIR$/DWT-Doc/topics/Get-BLs.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DWT-Doc/topics/Get-Lot.md" beforeDir="false" afterPath="$PROJECT_DIR$/DWT-Doc/topics/Get-Lot.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DWT-Doc/topics/Get-Plans.md" beforeDir="false" afterPath="$PROJECT_DIR$/DWT-Doc/topics/Get-Plans.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DWT-Doc/topics/Get-one-Plan.md" beforeDir="false" afterPath="$PROJECT_DIR$/DWT-Doc/topics/Get-one-Plan.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DWT-Doc/topics/Get-one-operation.md" beforeDir="false" afterPath="$PROJECT_DIR$/DWT-Doc/topics/Get-one-operation.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DWT-Doc/topics/Get-operations.md" beforeDir="false" afterPath="$PROJECT_DIR$/DWT-Doc/topics/Get-operations.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DWT-Doc/topics/Plan.md" beforeDir="false" afterPath="$PROJECT_DIR$/DWT-Doc/topics/Plan.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DWT-Doc/topics/Update-Cargo.md" beforeDir="false" afterPath="$PROJECT_DIR$/DWT-Doc/topics/Update-Cargo.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DWT-Doc/topics/Update-Plan.md" beforeDir="false" afterPath="$PROJECT_DIR$/DWT-Doc/topics/Update-Plan.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DWT-Doc/topics/Update-operation.md" beforeDir="false" afterPath="$PROJECT_DIR$/DWT-Doc/topics/Update-operation.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
