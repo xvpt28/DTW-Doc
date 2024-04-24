@@ -18,14 +18,14 @@
 
 #### Query Parameters
 
-| Parameter Name | Type   | Description | required | default     |
-|----------------|--------|-------------|----------|-------------|
-| search         | string | search      | no       | ""          |
-| page           | int    | page number | no       | 0           |
-| size           | int    | limit       | no       | 10          |
-| sort           | string | sort        | no       | "timestamp" |
-| order          | string | order       | no       | "dsc"       |
-| filter         | obj    | filter      | no       | null        |
+| Parameter Name | Type   | Description | required | default      |
+|----------------|--------|-------------|----------|--------------|
+| search         | string | search      | no       | ""           |
+| page           | int    | page number | no       | 0            |
+| size           | int    | limit       | no       | 10           |
+| sort           | string | sort        | no       | "targetDate" |
+| order          | string | order       | no       | "dsc"        |
+| filter         | obj    | filter      | no       | null         |
 
 example:
 
