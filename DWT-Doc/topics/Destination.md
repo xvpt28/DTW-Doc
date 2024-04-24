@@ -12,7 +12,7 @@ Store All the destination of the cargo.
 
 ### Columns
 
-| Name | Type      | Description                  | Foreign Key |
-|------|-----------|------------------------------|-------------|
-| id   | UUID      | Primary Key of the operation | No          |
-| name | timestamp | Timestamp of the operation.  | No          |
+| Name | Type   | Description                  | Foreign Key |
+|------|--------|------------------------------|-------------|
+| id   | UUID   | Primary Key of the operation | No          |
+| name | string | Timestamp of the operation.  | No          |
