@@ -71,10 +71,11 @@ Create a lot
 | financier      | string | name              |
 | quantity       | int    | quantity          |
 | quantityUnit   | string | unit              |
+| numberOfCargo  | int    | number of cargo   |
 | blInfo         | obj    | bl info           |
 | planInfo       | obj    | plan info         |
 | cargoInfo      | array  | cargo info        |
-| operationInfo  | obj    | operation info    |
+| operationInfo  | array  | operation info    |
 
 Example:
 
@@ -116,6 +117,16 @@ Example:
         "virtualId": "CAR-001",
         "actualId": "CAR-32315",
         "status": "pending"
+      }
+    ],
+    "operationInfo": [
+      {
+        "id": "cb521f04-0489-4fa0-befd-99ceb2c29801",
+        "timestamp": "1713781182",
+        "destination": {
+          "id": "cb521f04-0489-4fa0-befd-99ceb2c29801",
+          "name": "Zone 10"
+        }
       }
     ]
   }

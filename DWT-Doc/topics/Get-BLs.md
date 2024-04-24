@@ -126,6 +126,16 @@ Example:
             "actualId": "CAR-32315",
             "status": "pending"
           }
+        ],
+        "operationInfo": [
+          {
+            "id": "cb521f04-0489-4fa0-befd-99ceb2c29801",
+            "timestamp": "1713781182",
+            "destination": {
+              "id": "cb521f04-0489-4fa0-befd-99ceb2c29801",
+              "name": "Zone 10"
+            }
+          }
         ]
       }
     ]

@@ -51,17 +51,19 @@ Example:
 
 #### Success Response
 
-| Parameter Name    | Type   | Description                        |
-|-------------------|--------|------------------------------------|
-| id                | UUID   | The id of the plan                 |
-| planId            | string | The plan id of the plan            |
-| method            | string | The method of the plan             |
-| targetFrom        | obj    | The target destination of the plan |
-| targetDestination | uuid   | The target destination of the plan |
-| targetDate        | string | The target timestamp of the plan   |
-| blInfo            | obj    | The bl information of the plan     |
-| lotInfo           | obj    | The lot information of the plan    |
-| cargoInfo         | array  | The cargo information of the plan  |
+| Parameter Name    | Type   | Description                           |
+|-------------------|--------|---------------------------------------|
+| id                | UUID   | The id of the plan                    |
+| planId            | string | The plan id of the plan               |
+| method            | string | The method of the plan                |
+| targetFrom        | obj    | The target destination of the plan    |
+| targetDestination | uuid   | The target destination of the plan    |
+| targetDate        | string | The target timestamp of the plan      |
+| status            | string | The status of the plan                |
+| blInfo            | obj    | The bl information of the plan        |
+| lotInfo           | obj    | The lot information of the plan       |
+| cargoInfo         | array  | The cargo information of the plan     |
+| operationInfo     | array  | The operation information of the plan |
 
 Example:
 
@@ -103,6 +105,16 @@ Example:
         "virtualId": "CAR-001",
         "actualId": "CAR-32315",
         "status": "pending"
+      }
+    ],
+    "operationInfo": [
+      {
+        "id": "cb521f04-0489-4fa0-befd-99ceb2c29801",
+        "timestamp": "1713781182",
+        "destination": {
+          "id": "cb521f04-0489-4fa0-befd-99ceb2c29801",
+          "name": "Zone 10"
+        }
       }
     ]
   }
