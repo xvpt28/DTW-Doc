@@ -6,9 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="698f1ab7-d7cc-4313-96b6-aafee02931e1" name="更改" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DWT-Doc/topics/Get-BLs.md" beforeDir="false" afterPath="$PROJECT_DIR$/DWT-Doc/topics/Get-BLs.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DWT-Doc/topics/Get-Lot.md" beforeDir="false" afterPath="$PROJECT_DIR$/DWT-Doc/topics/Get-Lot.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DWT-Doc/topics/Get-Plans.md" beforeDir="false" afterPath="$PROJECT_DIR$/DWT-Doc/topics/Get-Plans.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DWT-Doc/topics/Cargo.md" beforeDir="false" afterPath="$PROJECT_DIR$/DWT-Doc/topics/Cargo.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DWT-Doc/topics/Update-Cargo.md" beforeDir="false" afterPath="$PROJECT_DIR$/DWT-Doc/topics/Update-Cargo.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -334,20 +333,6 @@
     "settings.editor.selected.configurable": "actions.on.save",
     "vue.rearranger.settings.migration": "true",
     "writerside.last.selected.productHelpTOC.json": "DTWDoc"
-  },
-  "keyToStringList": {
-    "stardust.markdown.MarkdownSplitEditorSuppressor:keyList": [
-      "/Users/putong/Desktop/DTW-Doc/DWT-Doc/topics/Create-Plan.md",
-      "/Users/putong/Desktop/DTW-Doc/DWT-Doc/topics/Delete-Plans.md",
-      "/Users/putong/Desktop/DTW-Doc/DWT-Doc/topics/Destination.md",
-      "/Users/putong/Desktop/DTW-Doc/DWT-Doc/topics/Get-BLs.md",
-      "/Users/putong/Desktop/DTW-Doc/DWT-Doc/topics/Get-Destinations.md",
-      "/Users/putong/Desktop/DTW-Doc/DWT-Doc/topics/Get-Lot.md",
-      "/Users/putong/Desktop/DTW-Doc/DWT-Doc/topics/Get-Plans.md",
-      "/Users/putong/Desktop/DTW-Doc/DWT-Doc/topics/Update-Cargo.md",
-      "/Users/putong/Desktop/DTW-Doc/DWT-Doc/topics/Update-Destination.md",
-      "/Users/putong/Desktop/DTW-Doc/DWT-Doc/topics/Update-Plan.md"
-    ]
   }
 }]]></component>
   <component name="RecentsManager">

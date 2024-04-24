@@ -24,14 +24,12 @@
 
 #### Body Parameters
 
-| Parameter Name | Type   | Description           | required |
-|----------------|--------|-----------------------|----------|
-| type           | string | The type of the cargo | no       |
-| actualId       | string | The actual id         | no       |
+| Parameter Name | Type   | Description   | required |
+|----------------|--------|---------------|----------|
+| actualId       | string | The actual id | no       |
 
 ```json
 {
-  "type": "pallet",
   "actualId": "CAR-32315"
 }
 ```
