@@ -100,15 +100,15 @@ Example:
       "name": "Coco",
       "supplier": "Supplier-001",
       "quantity": 100,
-      "quantityUnit": "bags",
-      "numberOfCargo": 50
+      "quantityUnit": "bags"
     },
     "lotInfo": {
       "id": "cb521f04-0489-4fa0-befd-99ceb2c29801",
       "lotId": "LOT-001",
       "financier": "OCBC",
       "quantity": 100,
-      "quantityUnit": "bags"
+      "quantityUnit": "bags",
+      "numberOfCargo": 50
     },
     "cargoInfo": {
       "id": "cb521f04-0489-4fa0-befd-99ceb2c29801",

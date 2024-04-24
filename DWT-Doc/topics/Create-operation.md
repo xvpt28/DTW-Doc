@@ -30,18 +30,17 @@
 | timestamp      | string | The timestamp of the cargo  | yes      |
 | destination    | obj    | The destination information | yes      |
 | actualId       | string | The actual id of the cargo  | yes      |
-| virtualId      | string | The virtual id of the cargo | yes      |
 
 ```json
 {
   "planId": "cb521f04-0489-4fa0-befd-99ceb2c29801",
+  "cargoId": "cb521f04-0489-4fa0-befd-99ceb2c29801",
   "timestamp": "1713781182",
   "destination": {
     "id": "cb521f04-0489-4fa0-befd-99ceb2c29801",
     "name": "Zone 10"
   },
-  "actualId": "CAR-32315",
-  "virtualId": "CAR-001"
+  "actualId": "CAR-32315"
 }
 ```
 
@@ -119,7 +118,6 @@ Example:
     }
   }
 }
-
 ```
 
 #### Error Response
