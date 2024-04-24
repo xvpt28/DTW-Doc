@@ -4,7 +4,7 @@
 
 ### Url
 
-`/api/cargo/v1`
+`/api/cargo/v1/:id`
 
 ### Method
 
