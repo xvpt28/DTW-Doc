@@ -18,7 +18,9 @@
 
 #### Query Parameters
 
-`None`
+| Parameter Name | Type   | Description              | required |
+|----------------|--------|--------------------------|----------|
+| location       | string | The uuid of the location | yes      |
 
 #### Body Parameters
 
