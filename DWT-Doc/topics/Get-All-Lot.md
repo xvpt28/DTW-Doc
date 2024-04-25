@@ -18,7 +18,15 @@
 
 #### Query Parameters
 
-`None`
+| Parameter Name | Type   | Description              | required |
+|----------------|--------|--------------------------|----------|
+| bl             | string | Get all lots based on BL | yes      |
+
+```json
+{
+  "bl": "cb521f04-0489-4fa0-befd-99ceb2c29801"
+}
+```
 
 #### Body Parameters
 
