@@ -1,4 +1,4 @@
-# Get-one-operation
+# Get One operation
 
 ## Request
 

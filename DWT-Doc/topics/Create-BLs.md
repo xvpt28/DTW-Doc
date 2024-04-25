@@ -1,6 +1,4 @@
-# Create-BLs
-
-Create a BL
+# Create BLs
 
 ## Request
 

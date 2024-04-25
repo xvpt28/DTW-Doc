@@ -1,6 +1,4 @@
-# Get-BLs
-
-Get all Bls
+# Get BLs (Priority: 1)
 
 ## Request
 
@@ -22,6 +20,7 @@ Get all Bls
 
 | Parameter Name | Type   | Description | required | default |
 |----------------|--------|-------------|----------|---------|
+| location       | string | location    | yes      |         |
 | search         | string | search      | no       | ""      |
 | page           | int    | page number | no       | 0       |
 | size           | int    | limit       | no       | 10      |
@@ -33,12 +32,14 @@ example:
 
 ```json
 {
+  "location": "Zone 10",
   "search": "zone",
   "page": 1,
   "size": 10,
   "sort": "name",
   "order": "asc",
   "filter": {
+    "location": "cb521f04-0489-4fa0-befd-99ceb2c29801",
     "supplier": "Supplier-001",
     "name": "Coco"
   }

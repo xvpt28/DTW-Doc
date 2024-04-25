@@ -1,6 +1,4 @@
-# Get Destinations
-
-Get all destinations
+# Get Destinations (Priority: 1)
 
 ## Request
 
@@ -40,10 +38,11 @@ Get all destinations
 
 #### Success Response
 
-| Parameter Name | Type   | Description                 |
-|----------------|--------|-----------------------------|
-| id             | string | The uuid of the destination |
-| name           | string | The name of the destination |
+| Parameter Name | Type   | Description                     |
+|----------------|--------|---------------------------------|
+| id             | string | The uuid of the destination     |
+| name           | string | The name of the destination     |
+| location       | obj    | The location of the destination |
 
 Example:
 
@@ -54,11 +53,19 @@ Example:
   "data": [
     {
       "id": "cb521f04-0489-4fa0-befd-99ceb2c29801",
-      "name": "Zone 10"
+      "name": "Zone 10",
+      "location": {
+        "id": "cb521f04-0489-4fa0-befd-99ceb2c29801",
+        "name": "WareHouse 1"
+      }
     },
     {
       "id": "155af289-5c8a-4da7-91c2-fcf2b25297fe",
-      "name": "Zone 10"
+      "name": "Zone 10",
+      "location": {
+        "id": "cb521f04-0489-4fa0-befd-99ceb2c29801",
+        "name": "WareHouse 1"
+      }
     }
   ]
 }

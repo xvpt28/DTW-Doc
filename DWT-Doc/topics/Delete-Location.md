@@ -1,10 +1,10 @@
-# Delete operation
+# Delete Location
 
 ## Request
 
 ### Url
 
-`/api/operation/v1`
+`/api/location/v1`
 
 ### Method
 
@@ -72,6 +72,6 @@ Example:
 ```json
 {
   "status": 404,
-  "message": "Operation not found"
+  "message": "Location not found"
 }
 ```

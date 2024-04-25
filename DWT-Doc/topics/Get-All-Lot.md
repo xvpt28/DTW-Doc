@@ -1,6 +1,4 @@
-# Get-All-Lot
-
-Create a lot
+# Get All Lot (Priority: 1)
 
 ## Request
 

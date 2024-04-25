@@ -6,6 +6,7 @@
                   name="DTW-v1"
                   start-page="Destination.md">
 
+    <toc-element topic="Overview-Structure.md"/>
     <toc-element topic="Destination.md">
         <toc-element topic="Delete-Destinations.md"/>
         <toc-element topic="Get-Destinations.md"/>
@@ -14,11 +15,6 @@
     </toc-element>
     <toc-element topic="Cargo.md">
         <toc-element topic="Update-Cargo.md"/>
-    </toc-element>
-    <toc-element topic="BL.md">
-        <toc-element topic="Get-All-BLs.md"/>
-        <toc-element topic="Create-BLs.md"/>
-        <toc-element topic="Get-BLs.md"/>
     </toc-element>
     <toc-element topic="Operation.md">
         <toc-element topic="Get-one-operation.md"/>
@@ -38,5 +34,16 @@
         <toc-element topic="Update-Plan.md"/>
         <toc-element topic="Create-Plan.md"/>
         <toc-element topic="Get-Plans.md"/>
+    </toc-element>
+    <toc-element topic="BL.md">
+        <toc-element topic="Get-All-BLs.md"/>
+        <toc-element topic="Create-BLs.md"/>
+        <toc-element topic="Get-BLs.md"/>
+    </toc-element>
+    <toc-element topic="Location.md">
+        <toc-element topic="Delete-Location.md"/>
+        <toc-element topic="Update-Location.md"/>
+        <toc-element topic="Create-Location.md"/>
+        <toc-element topic="Get-Location.md"/>
     </toc-element>
 </instance-profile>

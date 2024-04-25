@@ -1,4 +1,4 @@
-# Get-Plans
+# Get Plans (Priority: 1)
 
 ## Request
 
@@ -37,6 +37,7 @@ example:
   "sort": "name",
   "order": "asc",
   "filter": {
+    "location": "cb521f04-0489-4fa0-befd-99ceb2c29801",
     "status": "pending",
     "method": "stock-in",
     "startDate": "2020-01-01",

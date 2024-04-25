@@ -1,22 +1,20 @@
-# Update Destination
+# Create Location
 
 ## Request
 
 ### Url
 
-`/api/destination/v1`
+`/api/location/v1`
 
 ### Method
 
-`PUT`
+`POST`
 
 ### Request Parameters
 
 #### URL Parameters
 
-| Parameter Name | Type   | Description                                  | required |
-|----------------|--------|----------------------------------------------|----------|
-| id             | string | The destination uuid that need to be updated | yes      |
+`None`
 
 #### Query Parameters
 
@@ -24,15 +22,21 @@
 
 #### Body Parameters
 
-| Parameter Name | Type   | Description                 | required |
-|----------------|--------|-----------------------------|----------|
-| name           | string | The name of the destination | yes      |
+| Parameter Name | Type   | Description                 |
+|----------------|--------|-----------------------------|
+| id             | string | The uuid of the destination |
+| name           | string | The name of the destination |
+| destinations   | array  | The list of destinations    |
 
 Example:
 
 ```json
 {
-  "name": "Zone 10"
+  "name": "Warehouse 1",
+  "destinations": [
+    "155af289-5c8a-4da7-91c2-fcf2b25297fe",
+    "155af289-5c8a-4da7-91c2-fcf2b25297fe"
+  ]
 }
 ```
 
@@ -63,11 +67,13 @@ Example:
   "message": "Success",
   "data": {
     "id": "cb521f04-0489-4fa0-befd-99ceb2c29801",
-    "name": "Zone 10",
-    "location": {
-      "id": "cb521f04-0489-4fa0-befd-99ceb2c29801",
-      "name": "WareHouse 1"
-    }
+    "name": "Warehouse 1",
+    "destinations": [
+      {
+        "id": "155af289-5c8a-4da7-91c2-fcf2b25297fe",
+        "name": "Zone 10"
+      }
+    ]
   }
 }
 ```
@@ -77,6 +83,6 @@ Example:
 ```json
 {
   "status": 404,
-  "message": "Destination not found"
+  "message": "Location not found"
 }
 ```

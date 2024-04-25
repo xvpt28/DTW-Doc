@@ -1,14 +1,14 @@
-# Create Destination
+# Get Location (Priority: 1)
 
 ## Request
 
 ### Url
 
-`/api/destination/v1`
+`/api/location/v1`
 
 ### Method
 
-`POST`
+`GET`
 
 ### Request Parameters
 
@@ -22,17 +22,7 @@
 
 #### Body Parameters
 
-| Parameter Name | Type   | Description                 | required |
-|----------------|--------|-----------------------------|----------|
-| name           | string | The name of the destination | yes      |
-
-Example:
-
-```json
-{
-  "name": "Zone 10"
-}
-```
+`None`
 
 ## Response
 
@@ -52,6 +42,7 @@ Example:
 |----------------|--------|-----------------------------|
 | id             | string | The uuid of the destination |
 | name           | string | The name of the destination |
+| destinations   | array  | The list of destinations    |
 
 Example:
 
@@ -59,14 +50,28 @@ Example:
 {
   "status": 200,
   "message": "Success",
-  "data": {
-    "id": "cb521f04-0489-4fa0-befd-99ceb2c29801",
-    "name": "Zone 10",
-    "location": {
+  "data": [
+    {
       "id": "cb521f04-0489-4fa0-befd-99ceb2c29801",
-      "name": "WareHouse 1"
+      "name": "Warehouse 1",
+      "destinations": [
+        {
+          "id": "155af289-5c8a-4da7-91c2-fcf2b25297fe",
+          "name": "Zone 10"
+        }
+      ]
+    },
+    {
+      "id": "cb521f04-0489-4fa0-befd-99ceb2c29801",
+      "name": "Warehouse 2",
+      "destinations": [
+        {
+          "id": "155af289-5c8a-4da7-91c2-fcf2b25297fe",
+          "name": "Zone 20"
+        }
+      ]
     }
-  }
+  ]
 }
 ```
 
@@ -75,6 +80,6 @@ Example:
 ```json
 {
   "status": 404,
-  "message": "Destination not found"
+  "message": "Location not found"
 }
 ```

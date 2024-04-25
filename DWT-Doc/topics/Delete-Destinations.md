@@ -1,7 +1,5 @@
 # Delete Destinations
 
-Delete destinations
-
 ## Request
 
 ### Url

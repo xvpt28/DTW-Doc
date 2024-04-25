@@ -1,6 +1,4 @@
-# Create-Lot
-
-Create a lot
+# Create Lot
 
 ## Request
 

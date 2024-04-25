@@ -1,6 +1,4 @@
-# Get-All-BLs
-
-Get all Bls
+# Get All BLs (Priority: 1)
 
 ## Request
 

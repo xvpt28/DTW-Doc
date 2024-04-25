@@ -46,4 +46,8 @@
         <description>Created after removal of "Empty MD Topic" from DTW-v1</description>
         <accepts>Empty-MD-Topic.html</accepts>
     </rule>
+    <rule id="789fc3a2">
+        <description>Created after removal of "Get-All-Location (Priority: 1)" from DTW-v1</description>
+        <accepts>Get-All-Location.html</accepts>
+    </rule>
 </rules>

@@ -1,4 +1,4 @@
-# Delete-Plans
+# Delete Plan
 
 ## Request
 

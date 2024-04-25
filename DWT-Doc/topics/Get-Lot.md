@@ -1,6 +1,4 @@
-# Get-Lot
-
-Get all Lots
+# Get Lot
 
 ## Request
 
@@ -39,6 +37,7 @@ example:
   "sort": "name",
   "order": "asc",
   "filter": {
+    "location": "cb521f04-0489-4fa0-befd-99ceb2c29801",
     "financier": "OCBC"
   }
 }

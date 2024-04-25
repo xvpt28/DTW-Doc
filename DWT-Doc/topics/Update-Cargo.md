@@ -1,4 +1,4 @@
-# Update-Cargo
+# Update Cargo
 
 ## Request
 
