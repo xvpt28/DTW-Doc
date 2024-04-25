@@ -39,9 +39,8 @@ example:
   "sort": "name",
   "order": "asc",
   "filter": {
-    "method": "stock-in",
-    "startDate": "2020-01-01",
-    "endDate": "2020-01-31"
+    "supplier": "Supplier-001",
+    "name": "Coco"
   }
 }
 

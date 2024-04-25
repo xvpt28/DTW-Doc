@@ -16,6 +16,7 @@
         <toc-element topic="Update-Cargo.md"/>
     </toc-element>
     <toc-element topic="BL.md">
+        <toc-element topic="Get-All-BLs.md"/>
         <toc-element topic="Create-BLs.md"/>
         <toc-element topic="Get-BLs.md"/>
     </toc-element>
@@ -27,6 +28,7 @@
         <toc-element topic="Get-operations.md"/>
     </toc-element>
     <toc-element topic="Lot.md">
+        <toc-element topic="Get-All-Lot.md"/>
         <toc-element topic="Create-Lot.md"/>
         <toc-element topic="Get-Lot.md"/>
     </toc-element>
