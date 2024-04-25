@@ -46,14 +46,15 @@
 
 #### Success Response
 
-| Parameter Name | Type   | Description       |
-|----------------|--------|-------------------|
-| id             | uuid   | primary key of bl |
-| lotId          | string | sku               |
-| financier      | string | name              |
-| quantity       | int    | quantity          |
-| quantityUnit   | string | unit              |
-| numberOfCargo  | int    | number of cargo   |
+| Parameter Name | Type        | Description       |
+|----------------|-------------|-------------------|
+| id             | uuid        | primary key of bl |
+| lotId          | string      | sku               |
+| financier      | string      | name              |
+| quantity       | int         | quantity          |
+| quantityUnit   | string      | unit              |
+| numberOfCargo  | int         | number of cargo   |
+| planInfo       | obj or null | plan info         |
 
 Example:
 
@@ -70,7 +71,19 @@ Example:
         "financier": "OCBC",
         "quantity": 100,
         "quantityUnit": "bags",
-        "numberOfCargo": 50
+        "numberOfCargo": 50,
+        "planInfo": {
+          "id": "cb521f04-0489-4fa0-befd-99ceb2c29801",
+          "planId": "Plan-001",
+          "method": "stock-in",
+          "targetFrom": null,
+          "targetDestination": {
+            "id": "cb521f04-0489-4fa0-befd-99ceb2c29801",
+            "name": "Zone 10"
+          },
+          "targetDate": "1713781182",
+          "status": "pending"
+        }
       }
     ]
   }
