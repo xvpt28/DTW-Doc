@@ -73,7 +73,7 @@ example:
 | blInfo         | obj    | bl info           |
 | planInfo       | obj    | plan info         |
 | cargoInfo      | array  | cargo info        |
-| operationInfo  | array  | operation info    |
+| operationInfo  | obj    | operation info    |
 
 Example:
 
@@ -90,7 +90,10 @@ Example:
         "financier": "OCBC",
         "quantity": 100,
         "quantityUnit": "bags",
-        "numberOfCargo": 50,
+        "numberOfCargo": {
+          "pallet": 50,
+          "carton": 10
+        },
         "blInfo": {
           "id": "cb521f04-0489-4fa0-befd-99ceb2c29801",
           "sku": "SKU-001",
@@ -120,16 +123,14 @@ Example:
             "status": "pending"
           }
         ],
-        "operationInfo": [
-          {
+        "operationInfo": {
+          "id": "cb521f04-0489-4fa0-befd-99ceb2c29801",
+          "timestamp": "1713781182",
+          "destination": {
             "id": "cb521f04-0489-4fa0-befd-99ceb2c29801",
-            "timestamp": "1713781182",
-            "destination": {
-              "id": "cb521f04-0489-4fa0-befd-99ceb2c29801",
-              "name": "Zone 10"
-            }
+            "name": "Zone 10"
           }
-        ]
+        }
       }
     ]
   }

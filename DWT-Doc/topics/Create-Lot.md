@@ -31,7 +31,7 @@
 | supplier       | string | supplier            | yes      |
 | quantity       | int    | quantity            | yes      |
 | quantityUnit   | string | unit                | yes      |
-| numberOfCargo  | int    | number of cargo     | no       |
+| numberOfCargo  | obj    | number of cargo     | no       |
 | blId           | uuid   | foreigner key to BL | yes      |
 
 ```json
@@ -41,7 +41,10 @@
   "supplier": "Supplier-001",
   "quantity": 100,
   "quantityUnit": "bags",
-  "numberOfCargo": 50,
+  "numberOfCargo": {
+    "pallet": 50,
+    "carton": 10
+  },
   "blId": "cb521f04-0489-4fa0-befd-99ceb2c29801"
 }
 ```
@@ -73,7 +76,7 @@
 | blInfo         | obj    | bl info           |
 | planInfo       | obj    | plan info         |
 | cargoInfo      | array  | cargo info        |
-| operationInfo  | array  | operation info    |
+| operationInfo  | obj    | operation info    |
 
 Example:
 
@@ -117,16 +120,14 @@ Example:
         "status": "pending"
       }
     ],
-    "operationInfo": [
-      {
+    "operationInfo": {
+      "id": "cb521f04-0489-4fa0-befd-99ceb2c29801",
+      "timestamp": "1713781182",
+      "destination": {
         "id": "cb521f04-0489-4fa0-befd-99ceb2c29801",
-        "timestamp": "1713781182",
-        "destination": {
-          "id": "cb521f04-0489-4fa0-befd-99ceb2c29801",
-          "name": "Zone 10"
-        }
+        "name": "Zone 10"
       }
-    ]
+    }
   }
 }
 ```

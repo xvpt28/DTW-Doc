@@ -71,7 +71,10 @@ Example:
         "financier": "OCBC",
         "quantity": 100,
         "quantityUnit": "bags",
-        "numberOfCargo": 50,
+        "numberOfCargo": {
+          "pallet": 50,
+          "carton": 10
+        },
         "planInfo": {
           "id": "cb521f04-0489-4fa0-befd-99ceb2c29801",
           "planId": "Plan-001",

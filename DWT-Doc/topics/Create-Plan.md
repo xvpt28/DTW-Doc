@@ -67,7 +67,7 @@ Example:
 | blInfo            | obj    | The bl information of the plan        |
 | lotInfo           | obj    | The lot information of the plan       |
 | cargoInfo         | array  | The cargo information of the plan     |
-| operationInfo     | array  | The operation information of the plan |
+| operationInfo     | obj    | The operation information of the plan |
 
 Example:
 
@@ -111,16 +111,14 @@ Example:
         "status": "pending"
       }
     ],
-    "operationInfo": [
-      {
+    "operationInfo": {
+      "id": "cb521f04-0489-4fa0-befd-99ceb2c29801",
+      "timestamp": "1713781182",
+      "destination": {
         "id": "cb521f04-0489-4fa0-befd-99ceb2c29801",
-        "timestamp": "1713781182",
-        "destination": {
-          "id": "cb521f04-0489-4fa0-befd-99ceb2c29801",
-          "name": "Zone 10"
-        }
+        "name": "Zone 10"
       }
-    ]
+    }
   }
 }
 ```
