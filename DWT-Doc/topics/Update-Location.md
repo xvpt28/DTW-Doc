@@ -73,7 +73,19 @@ Example:
         "id": "155af289-5c8a-4da7-91c2-fcf2b25297fe",
         "name": "Zone 10"
       }
-    ]
+    ],
+    "totalStockInPlans": {
+      "pending": 10,
+      "completed": 20
+    },
+    "totalStockOutPlans": {
+      "pending": 10,
+      "completed": 20
+    },
+    "totalStockTransferPlans": {
+      "pending": 10,
+      "completed": 20
+    }
   }
 }
 ```

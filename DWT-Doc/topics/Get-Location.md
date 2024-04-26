@@ -38,11 +38,14 @@
 
 #### Success Response
 
-| Parameter Name | Type   | Description                 |
-|----------------|--------|-----------------------------|
-| id             | string | The uuid of the destination |
-| name           | string | The name of the destination |
-| destinations   | array  | The list of destinations    |
+| Parameter Name          | Type   | Description                    |
+|-------------------------|--------|--------------------------------|
+| id                      | string | The uuid of the destination    |
+| name                    | string | The name of the destination    |
+| destinations            | array  | The list of destinations       |
+| totalStockInPlans       | obj    | The total stock in plans       |
+| totalStockOutPlans      | obj    | The total stock out plans      |
+| totalStockTransferPlans | obj    | The total stock transfer plans |
 
 Example:
 
@@ -59,7 +62,19 @@ Example:
           "id": "155af289-5c8a-4da7-91c2-fcf2b25297fe",
           "name": "Zone 10"
         }
-      ]
+      ],
+      "totalStockInPlans": {
+        "pending": 10,
+        "completed": 20
+      },
+      "totalStockOutPlans": {
+        "pending": 10,
+        "completed": 20
+      },
+      "totalStockTransferPlans": {
+        "pending": 10,
+        "completed": 20
+      }
     },
     {
       "id": "cb521f04-0489-4fa0-befd-99ceb2c29801",
@@ -69,7 +84,19 @@ Example:
           "id": "155af289-5c8a-4da7-91c2-fcf2b25297fe",
           "name": "Zone 20"
         }
-      ]
+      ],
+      "totalStockInPlans": {
+        "pending": 10,
+        "completed": 20
+      },
+      "totalStockOutPlans": {
+        "pending": 10,
+        "completed": 20
+      },
+      "totalStockTransferPlans": {
+        "pending": 10,
+        "completed": 20
+      }
     }
   ]
 }
