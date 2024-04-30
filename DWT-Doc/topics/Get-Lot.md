@@ -1,4 +1,4 @@
-# Get Lot
+# Get Lot (Priority: 1)
 
 ## Request
 
