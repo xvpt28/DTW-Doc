@@ -12,10 +12,11 @@ Store information about the operation of a cargo.
 
 ### Columns
 
-| Name        | Type      | Description                   | Foreign Key |
-|-------------|-----------|-------------------------------|-------------|
-| id          | UUID      | Primary Key of the operation. | No          |
-| timestamp   | timestamp | Timestamp of the operation.   | No          |
-| destination | UUID      | link to Destination Table     | Yes         |
-| planId      | UUID      | link to Plan Table            | Yes         |
-| cargoId     | UUID      | link to Cargo Table           | Yes         |
+| Name        | Type      | Description                   | Foreign Key | allowedNull |
+|-------------|-----------|-------------------------------|-------------|-------------|
+| id          | UUID      | Primary Key of the operation. | No          | No          |
+| timestamp   | timestamp | Timestamp of the operation.   | No          | No          |
+| from        | UUID      | link to Location Table        | Yes         | Yes         |
+| destination | UUID      | link to Destination Table     | Yes         | Yes         |
+| planId      | UUID      | link to Plan Table            | Yes         | No          |
+| cargoId     | UUID      | link to Cargo Table           | Yes         | No          |
