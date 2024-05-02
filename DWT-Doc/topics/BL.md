@@ -15,6 +15,7 @@ Store information about the BL.
 | Name         | Type   | Description            | Foreign Key |
 |--------------|--------|------------------------|-------------|
 | id           | UUID   | Primary Key of the bl. | No          |
+| blId         | string | The bl id of the bl    | No          |
 | sku          | string | The sku of the bl      | NO          |
 | name         | string | The name of the bl     | No          |
 | supplier     | string | The supplier of the bl | No          |

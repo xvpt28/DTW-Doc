@@ -43,6 +43,7 @@
 | id                      | string | The uuid of the destination    |
 | name                    | string | The name of the destination    |
 | destinations            | array  | The list of destinations       |
+| cameraInfo              | array  | The camera information list    |
 | totalStockInPlans       | obj    | The total stock in plans       |
 | totalStockOutPlans      | obj    | The total stock out plans      |
 | totalStockTransferPlans | obj    | The total stock transfer plans |
@@ -61,6 +62,10 @@ Example:
         {
           "id": "155af289-5c8a-4da7-91c2-fcf2b25297fe",
           "name": "Zone 10"
+        }
+      ],
+      "cameraInfo": [
+        {
         }
       ],
       "totalStockInPlans": {

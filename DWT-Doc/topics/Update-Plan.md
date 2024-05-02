@@ -84,6 +84,7 @@ Example:
     "status": "pending",
     "blInfo": {
       "id": "cb521f04-0489-4fa0-befd-99ceb2c29801",
+      "blId": "BL-001",
       "sku": "SKU-001",
       "name": "Coco",
       "supplier": "Supplier-001",
