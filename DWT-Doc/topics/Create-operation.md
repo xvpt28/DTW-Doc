@@ -22,25 +22,25 @@
 
 #### Body Parameters
 
-**Required to Modify the cargo `actualId`**
+**Required to Modify the cargo `physicalId`**
 
 | Parameter Name | Type   | Description                 | required |
 |----------------|--------|-----------------------------|----------|
-| planId         | string | The plan uuid               | yes      |
+| planName       | string | The plan uuid               | yes      |
 | timestamp      | string | The timestamp of the cargo  | yes      |
 | destination    | obj    | The destination information | yes      |
-| actualId       | string | The actual id of the cargo  | yes      |
+| physicalId     | string | The actual id of the cargo  | yes      |
 
 ```json
 {
-  "planId": "cb521f04-0489-4fa0-befd-99ceb2c29801",
+  "planName": "cb521f04-0489-4fa0-befd-99ceb2c29801",
   "cargoId": "cb521f04-0489-4fa0-befd-99ceb2c29801",
   "timestamp": "1713781182",
   "destination": {
     "id": "cb521f04-0489-4fa0-befd-99ceb2c29801",
     "name": "Zone 10"
   },
-  "actualId": "CAR-32315"
+  "physicalId": "CAR-32315"
 }
 ```
 
@@ -83,7 +83,7 @@ Example:
     },
     "planInfo": {
       "id": "cb521f04-0489-4fa0-befd-99ceb2c29801",
-      "planId": "Plan-001",
+      "planName": "Plan-001",
       "method": "stock-in",
       "targetFrom": null,
       "targetDestination": {
@@ -104,17 +104,18 @@ Example:
     },
     "lotInfo": {
       "id": "cb521f04-0489-4fa0-befd-99ceb2c29801",
-      "lotId": "LOT-001",
+      "lotName": "LOT-001",
       "financier": "OCBC",
       "quantity": 100,
       "quantityUnit": "bags",
-      "numberOfCargo": 50
+      "numberOfCargo": 50,
+      "commissionId": "cb521f04-0489-4fa0-befd-99ceb2c29803"
     },
     "cargoInfo": {
       "id": "cb521f04-0489-4fa0-befd-99ceb2c29801",
       "type": "pallet",
-      "virtualId": "CAR-001",
-      "actualId": "CAR-32315",
+      "cargoName": "CAR-001",
+      "physicalId": "CAR-32315",
       "status": "pending"
     }
   }

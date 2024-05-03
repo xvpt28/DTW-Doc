@@ -64,8 +64,9 @@ Example:
           "name": "Zone 10"
         }
       ],
-      "cameraInfo": [
+      "commissionCameras": [
         {
+          "commissionCameraName": "string"
         }
       ],
       "totalStockInPlans": {
@@ -88,6 +89,11 @@ Example:
         {
           "id": "155af289-5c8a-4da7-91c2-fcf2b25297fe",
           "name": "Zone 20"
+        }
+      ],
+      "commissionCameras": [
+        {
+          "commissionCameraName": "string"
         }
       ],
       "totalStockInPlans": {

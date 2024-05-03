@@ -50,4 +50,8 @@
         <description>Created after removal of "Get-All-Location (Priority: 1)" from DTW-v1</description>
         <accepts>Get-All-Location.html</accepts>
     </rule>
+    <rule id="4e10fcde">
+        <description>Created after removal of "Camera" from DTW-v1</description>
+        <accepts>Camera.html</accepts>
+    </rule>
 </rules>

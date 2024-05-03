@@ -74,6 +74,11 @@ Example:
         "name": "Zone 10"
       }
     ],
+    "commissionCameras": [
+      {
+        "commissionCameraName": "string"
+      }
+    ],
     "totalStockInPlans": {
       "pending": 10,
       "completed": 20

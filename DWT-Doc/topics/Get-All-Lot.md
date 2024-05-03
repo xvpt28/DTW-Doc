@@ -49,7 +49,7 @@
 | Parameter Name | Type        | Description       |
 |----------------|-------------|-------------------|
 | id             | uuid        | primary key of bl |
-| lotId          | string      | sku               |
+| lotName        | string      | sku               |
 | financier      | string      | name              |
 | quantity       | int         | quantity          |
 | quantityUnit   | string      | unit              |
@@ -67,7 +67,7 @@ Example:
     "data": [
       {
         "id": "cb521f04-0489-4fa0-befd-99ceb2c29801",
-        "lotId": "LOT-001",
+        "lotName": "LOT-001",
         "financier": "OCBC",
         "quantity": 100,
         "quantityUnit": "bags",
@@ -77,7 +77,7 @@ Example:
         },
         "planInfo": {
           "id": "cb521f04-0489-4fa0-befd-99ceb2c29801",
-          "planId": "Plan-001",
+          "planName": "Plan-001",
           "method": "stock-in",
           "targetFrom": null,
           "targetDestination": {

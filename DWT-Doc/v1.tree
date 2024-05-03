@@ -46,4 +46,8 @@
         <toc-element topic="Create-Location.md"/>
         <toc-element topic="Get-Location.md"/>
     </toc-element>
+    <toc-element topic="Commission.md">
+        <toc-element topic="Get-Stream-Url.md"/>
+        <toc-element topic="Start-Commission.md"/>
+    </toc-element>
 </instance-profile>
