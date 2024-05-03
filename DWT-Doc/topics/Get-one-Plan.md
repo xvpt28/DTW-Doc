@@ -90,7 +90,10 @@ Example:
       "financier": "OCBC",
       "quantity": 100,
       "quantityUnit": "bags",
-      "numberOfCargo": 50
+      "numberOfCargo": {
+        "pallet": 50,
+        "carton": 10
+      }
     },
     "cargoInfo": [
       {
