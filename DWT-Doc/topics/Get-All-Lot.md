@@ -79,8 +79,8 @@ Example:
           "id": "cb521f04-0489-4fa0-befd-99ceb2c29801",
           "planName": "Plan-001",
           "method": "stock-in",
-          "targetFrom": null,
-          "targetDestination": {
+          "targetFromDestination": null,
+          "targetToDestination": {
             "id": "cb521f04-0489-4fa0-befd-99ceb2c29801",
             "name": "Zone 10"
           },

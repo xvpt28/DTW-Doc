@@ -24,22 +24,21 @@
 
 #### Body Parameters
 
-| Parameter Name | Type   | Description                 | required |
-|----------------|--------|-----------------------------|----------|
-| planName       | string | The plan uuid               | no       |
-| timestamp      | string | The timestamp of the cargo  | no       |
-| destination    | obj    | The destination information | no       |
-| physicalId     | string | The actual id of the cargo  | no       |
-| cargoName      | string | The virtual id of the cargo | no       |
+| Parameter Name          | Type   | Description                 | required |
+|-------------------------|--------|-----------------------------|----------|
+| planName                | string | The plan uuid               | no       |
+| timestamp               | string | The timestamp of the cargo  | no       |
+| actualFromDestinationId | string | The actual id of the source | no       |
+| actualToDestination     | string | The destination information | no       |
+| physicalId              | string | The actual id of the cargo  | no       |
+| cargoName               | string | The virtual id of the cargo | no       |
 
 ```json
 {
   "planName": "cb521f04-0489-4fa0-befd-99ceb2c29801",
   "timestamp": "1713781182",
-  "destination": {
-    "id": "cb521f04-0489-4fa0-befd-99ceb2c29801",
-    "name": "Zone 10"
-  },
+  "actualFromDestinationId": null,
+  "actualToDestination": "cb521f04-0489-4fa0-befd-99ceb2c29801",
   "physicalId": "CAR-32315",
   "cargoName": "CAR-001"
 }
@@ -78,7 +77,8 @@ Example:
   "data": {
     "id": "cb521f04-0489-4fa0-befd-99ceb2c29801",
     "timestamp": "1713781182",
-    "destination": {
+    "actualFromDestination": null,
+    "actualToDestination": {
       "id": "cb521f04-0489-4fa0-befd-99ceb2c29801",
       "name": "Zone 10"
     },
@@ -86,8 +86,8 @@ Example:
       "id": "cb521f04-0489-4fa0-befd-99ceb2c29801",
       "planName": "Plan-001",
       "method": "stock-in",
-      "targetFrom": null,
-      "targetDestination": {
+      "targetFromDestination": null,
+      "targetToDestination": {
         "id": "cb521f04-0489-4fa0-befd-99ceb2c29801",
         "name": "Zone 10"
       },
@@ -96,7 +96,7 @@ Example:
     },
     "blInfo": {
       "id": "cb521f04-0489-4fa0-befd-99ceb2c29801",
-      "blId": "BL-001",
+      "blNumber": "BL-001",
       "sku": "SKU-001",
       "name": "Coco",
       "supplier": "Supplier-001",
@@ -110,15 +110,15 @@ Example:
       "quantity": 100,
       "quantityUnit": "bags",
       "numberOfCargo": 50,
-"commissionId": "cb521f04-0489-4fa0-befd-99ceb2c29803"
-
+      "commissionId": "cb521f04-0489-4fa0-befd-99ceb2c29803"
     },
     "cargoInfo": {
       "id": "cb521f04-0489-4fa0-befd-99ceb2c29801",
       "type": "pallet",
       "cargoName": "CAR-001",
       "physicalId": "CAR-32315",
-      "status": "pending"
+      "status": "pending",
+      "commissionId": "cb521f04-0489-4fa0-befd-99ceb2c29803"
     }
   }
 }

@@ -5,21 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="698f1ab7-d7cc-4313-96b6-aafee02931e1" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/DWT-Doc/topics/Camera.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DWT-Doc/topics/Commission.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DWT-Doc/topics/Get-Stream-Url.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DWT-Doc/topics/Start-Commission.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DWT-Doc/redirection-rules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/DWT-Doc/redirection-rules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DWT-Doc/topics/BL.md" beforeDir="false" afterPath="$PROJECT_DIR$/DWT-Doc/topics/BL.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DWT-Doc/topics/Cargo.md" beforeDir="false" afterPath="$PROJECT_DIR$/DWT-Doc/topics/Cargo.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DWT-Doc/topics/Create-BLs.md" beforeDir="false" afterPath="$PROJECT_DIR$/DWT-Doc/topics/Create-BLs.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DWT-Doc/topics/Create-Location.md" beforeDir="false" afterPath="$PROJECT_DIR$/DWT-Doc/topics/Create-Location.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DWT-Doc/topics/Create-Lot.md" beforeDir="false" afterPath="$PROJECT_DIR$/DWT-Doc/topics/Create-Lot.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DWT-Doc/topics/Create-Plan.md" beforeDir="false" afterPath="$PROJECT_DIR$/DWT-Doc/topics/Create-Plan.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DWT-Doc/topics/Create-operation.md" beforeDir="false" afterPath="$PROJECT_DIR$/DWT-Doc/topics/Create-operation.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DWT-Doc/topics/Get-All-BLs.md" beforeDir="false" afterPath="$PROJECT_DIR$/DWT-Doc/topics/Get-All-BLs.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DWT-Doc/topics/Get-All-Lot.md" beforeDir="false" afterPath="$PROJECT_DIR$/DWT-Doc/topics/Get-All-Lot.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DWT-Doc/topics/Get-BLs.md" beforeDir="false" afterPath="$PROJECT_DIR$/DWT-Doc/topics/Get-BLs.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DWT-Doc/topics/Get-Location.md" beforeDir="false" afterPath="$PROJECT_DIR$/DWT-Doc/topics/Get-Location.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DWT-Doc/topics/Get-Lot.md" beforeDir="false" afterPath="$PROJECT_DIR$/DWT-Doc/topics/Get-Lot.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DWT-Doc/topics/Get-Plans.md" beforeDir="false" afterPath="$PROJECT_DIR$/DWT-Doc/topics/Get-Plans.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DWT-Doc/topics/Get-one-Plan.md" beforeDir="false" afterPath="$PROJECT_DIR$/DWT-Doc/topics/Get-one-Plan.md" afterDir="false" />
@@ -29,10 +24,8 @@
       <change beforePath="$PROJECT_DIR$/DWT-Doc/topics/Operation.md" beforeDir="false" afterPath="$PROJECT_DIR$/DWT-Doc/topics/Operation.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DWT-Doc/topics/Plan.md" beforeDir="false" afterPath="$PROJECT_DIR$/DWT-Doc/topics/Plan.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DWT-Doc/topics/Update-Cargo.md" beforeDir="false" afterPath="$PROJECT_DIR$/DWT-Doc/topics/Update-Cargo.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DWT-Doc/topics/Update-Location.md" beforeDir="false" afterPath="$PROJECT_DIR$/DWT-Doc/topics/Update-Location.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DWT-Doc/topics/Update-Plan.md" beforeDir="false" afterPath="$PROJECT_DIR$/DWT-Doc/topics/Update-Plan.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DWT-Doc/topics/Update-operation.md" beforeDir="false" afterPath="$PROJECT_DIR$/DWT-Doc/topics/Update-operation.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DWT-Doc/v1.tree" beforeDir="false" afterPath="$PROJECT_DIR$/DWT-Doc/v1.tree" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pdfSourceV1.html" beforeDir="false" afterPath="$PROJECT_DIR$/pdfSourceV1.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

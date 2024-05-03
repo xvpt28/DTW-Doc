@@ -24,23 +24,24 @@
 
 **Required to Modify the cargo `physicalId`**
 
-| Parameter Name | Type   | Description                 | required |
-|----------------|--------|-----------------------------|----------|
-| planName       | string | The plan uuid               | yes      |
-| timestamp      | string | The timestamp of the cargo  | yes      |
-| destination    | obj    | The destination information | yes      |
-| physicalId     | string | The actual id of the cargo  | yes      |
+| Parameter Name          | Type   | Description                 | required | allowNull |
+|-------------------------|--------|-----------------------------|----------|-----------| 
+| planName                | string | The plan uuid               | yes      | no        |
+| timestamp               | string | The timestamp of the cargo  | yes      | no        |
+| cargoType               | string | The type of the cargo       | yes      | no        |
+| actualFromDestinationId | string | The actual id of the source | yes      | yes       |
+| actualToDestination     | string | The destination information | yes      | yes       |
+| physicalId              | string | The actual id of the cargo  | yes      | no        |
 
 ```json
 {
   "planName": "cb521f04-0489-4fa0-befd-99ceb2c29801",
-  "cargoId": "cb521f04-0489-4fa0-befd-99ceb2c29801",
   "timestamp": "1713781182",
-  "destination": {
-    "id": "cb521f04-0489-4fa0-befd-99ceb2c29801",
-    "name": "Zone 10"
-  },
-  "physicalId": "CAR-32315"
+  "cargoType": "pallet",
+  "actualFromDestinationId": null,
+  "actualToDestination": "cb521f04-0489-4fa0-befd-99ceb2c29801",
+  "physicalId": "CAR-32315",
+  "cargoName": "CAR-001"
 }
 ```
 
@@ -77,7 +78,8 @@ Example:
   "data": {
     "id": "cb521f04-0489-4fa0-befd-99ceb2c29801",
     "timestamp": "1713781182",
-    "destination": {
+    "actualFromDestination": null,
+    "actualToDestination": {
       "id": "cb521f04-0489-4fa0-befd-99ceb2c29801",
       "name": "Zone 10"
     },
@@ -85,8 +87,8 @@ Example:
       "id": "cb521f04-0489-4fa0-befd-99ceb2c29801",
       "planName": "Plan-001",
       "method": "stock-in",
-      "targetFrom": null,
-      "targetDestination": {
+      "targetFromDestination": null,
+      "targetToDestination": {
         "id": "cb521f04-0489-4fa0-befd-99ceb2c29801",
         "name": "Zone 10"
       },
@@ -95,7 +97,7 @@ Example:
     },
     "blInfo": {
       "id": "cb521f04-0489-4fa0-befd-99ceb2c29801",
-      "blId": "BL-001",
+      "blNumber": "BL-001",
       "sku": "SKU-001",
       "name": "Coco",
       "supplier": "Supplier-001",
@@ -116,7 +118,8 @@ Example:
       "type": "pallet",
       "cargoName": "CAR-001",
       "physicalId": "CAR-32315",
-      "status": "pending"
+      "status": "pending",
+      "commissionId": "cb521f04-0489-4fa0-befd-99ceb2c29803"
     }
   }
 }

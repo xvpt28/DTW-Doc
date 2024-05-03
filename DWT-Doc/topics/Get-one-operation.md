@@ -63,7 +63,8 @@ Example:
   "data": {
     "id": "cb521f04-0489-4fa0-befd-99ceb2c29801",
     "timestamp": "1713781182",
-    "destination": {
+    "targetToDestination": null,
+    "actualToDestination": {
       "id": "cb521f04-0489-4fa0-befd-99ceb2c29801",
       "name": "Zone 10"
     },
@@ -71,8 +72,8 @@ Example:
       "id": "cb521f04-0489-4fa0-befd-99ceb2c29801",
       "planName": "Plan-001",
       "method": "stock-in",
-      "targetFrom": null,
-      "targetDestination": {
+      "targetFromDestination": null,
+      "targetToDestination": {
         "id": "cb521f04-0489-4fa0-befd-99ceb2c29801",
         "name": "Zone 10"
       },
@@ -81,7 +82,7 @@ Example:
     },
     "blInfo": {
       "id": "cb521f04-0489-4fa0-befd-99ceb2c29801",
-      "blId": "BL-001",
+      "blNumber": "BL-001",
       "sku": "SKU-001",
       "name": "Coco",
       "supplier": "Supplier-001",
@@ -102,7 +103,8 @@ Example:
       "type": "pallet",
       "cargoName": "CAR-001",
       "physicalId": "CAR-32315",
-      "status": "pending"
+      "status": "pending",
+      "commissionId": "cb521f04-0489-4fa0-befd-99ceb2c29803"
     }
   }
 }

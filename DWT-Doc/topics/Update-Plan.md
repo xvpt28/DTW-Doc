@@ -22,12 +22,14 @@
 
 #### Body Parameters
 
-| Parameter Name    | Type   | Description                        | required |
-|-------------------|--------|------------------------------------|----------|
-| method            | string | The method of the plan             | no       |
-| targetFrom        | obj    | The target destination of the plan | no       |
-| targetDestination | uuid   | The target destination of the plan | no       |
-| targetDate        | string | The target timestamp of the plan   | no       |
+| Parameter Name        | Type   | Description                        | required |
+|-----------------------|--------|------------------------------------|----------|
+| method                | string | The method of the plan             | no       |
+| targetFromDestination | uuid   | The target destination of the plan | no       |
+| targetToDestination   | uuid   | The target destination of the plan | no       |
+| targetDate            | string | The target timestamp of the plan   | no       |
+| lotId                 | uuid   | The lot id of the plan             | yes      |
+| status                | string | The status of the plan             | no       |
 
 Example:
 
@@ -51,19 +53,19 @@ Example:
 
 #### Success Response
 
-| Parameter Name    | Type   | Description                           |
-|-------------------|--------|---------------------------------------|
-| id                | UUID   | The id of the plan                    |
-| planName          | string | The plan id of the plan               |
-| method            | string | The method of the plan                |
-| targetFrom        | obj    | The target destination of the plan    |
-| targetDestination | uuid   | The target destination of the plan    |
-| targetDate        | string | The target timestamp of the plan      |
-| status            | string | The status of the plan                |
-| blInfo            | obj    | The bl information of the plan        |
-| lotInfo           | obj    | The lot information of the plan       |
-| cargoInfo         | array  | The cargo information of the plan     |
-| operationInfo     | obj    | The operation information of the plan |
+| Parameter Name        | Type   | Description                           |
+|-----------------------|--------|---------------------------------------|
+| id                    | UUID   | The id of the plan                    |
+| planName              | string | The plan id of the plan               |
+| method                | string | The method of the plan                |
+| targetFromDestination | obj    | The target destination of the plan    |
+| targetToDestination   | obj    | The target destination of the plan    |
+| targetDate            | string | The target timestamp of the plan      |
+| status                | string | The status of the plan                |
+| blInfo                | obj    | The bl information of the plan        |
+| lotInfo               | obj    | The lot information of the plan       |
+| cargoInfo             | array  | The cargo information of the plan     |
+| operationInfo         | obj    | The operation information of the plan |
 
 Example:
 
@@ -75,8 +77,8 @@ Example:
     "id": "cb521f04-0489-4fa0-befd-99ceb2c29801",
     "planName": "Plan-001",
     "method": "stock-in",
-    "targetFrom": null,
-    "targetDestination": {
+    "targetFromDestination": null,
+    "targetToDestination": {
       "id": "cb521f04-0489-4fa0-befd-99ceb2c29801",
       "name": "Zone 10"
     },
@@ -84,7 +86,7 @@ Example:
     "status": "pending",
     "blInfo": {
       "id": "cb521f04-0489-4fa0-befd-99ceb2c29801",
-      "blId": "BL-001",
+      "blNumber": "BL-001",
       "sku": "SKU-001",
       "name": "Coco",
       "supplier": "Supplier-001",
@@ -97,8 +99,7 @@ Example:
       "financier": "OCBC",
       "quantity": 100,
       "quantityUnit": "bags",
-      "numberOfCargo": 50,
-      "commissionId": "cb521f04-0489-4fa0-befd-99ceb2c29803"
+      "numberOfCargo": 50
     },
     "cargoInfo": [
       {
@@ -106,13 +107,15 @@ Example:
         "type": "pallet",
         "cargoName": "CAR-001",
         "physicalId": "CAR-32315",
-        "status": "pending"
+        "status": "pending",
+        "commissionId": "cb521f04-0489-4fa0-befd-99ceb2c29803"
       }
     ],
     "operationInfo": {
       "id": "cb521f04-0489-4fa0-befd-99ceb2c29801",
       "timestamp": "1713781182",
-      "destination": {
+      "targetFromDestination": null,
+      "targetToDestination": {
         "id": "cb521f04-0489-4fa0-befd-99ceb2c29801",
         "name": "Zone 10"
       }
