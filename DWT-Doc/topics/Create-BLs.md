@@ -80,55 +80,7 @@ Example:
     "name": "Coco",
     "supplier": "Supplier-001",
     "quantity": 100,
-    "quantityUnit": "bags",
-    "planInfo": [
-      {
-        "id": "cb521f04-0489-4fa0-befd-99ceb2c29801",
-        "planName": "Plan-001",
-        "method": "stock-in",
-        "targetFromDestination": null,
-        "targetToDestination": {
-          "id": "cb521f04-0489-4fa0-befd-99ceb2c29801",
-          "name": "Zone 10"
-        },
-        "targetDate": "1713781182",
-        "status": "pending"
-      }
-    ],
-    "lotInfo": [
-      {
-        "id": "cb521f04-0489-4fa0-befd-99ceb2c29801",
-        "lotName": "LOT-001",
-        "financier": "OCBC",
-        "quantity": 100,
-        "quantityUnit": "bags",
-        "numberOfCargo": {
-          "pallet": 50,
-          "carton": 10
-        }
-      }
-    ],
-    "cargoInfo": [
-      {
-        "id": "cb521f04-0489-4fa0-befd-99ceb2c29801",
-        "type": "pallet",
-        "cargoName": "CAR-001",
-        "physicalId": "CAR-32315",
-        "status": "pending",
-        "commissionId": "cb521f04-0489-4fa0-befd-99ceb2c29803"
-      }
-    ],
-    "operationInfo": [
-      {
-        "id": "cb521f04-0489-4fa0-befd-99ceb2c29801",
-        "timestamp": "1713781182",
-        "targetFromDestination": null,
-        "targetToDestination": {
-          "id": "cb521f04-0489-4fa0-befd-99ceb2c29801",
-          "name": "Zone 10"
-        }
-      }
-    ]
+    "quantityUnit": "bags"
   }
 }
 ```
